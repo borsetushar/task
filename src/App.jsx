@@ -9,20 +9,15 @@ import IncomeOutcome from './Components/IncomeOutcome/IncomeOutcome';
 import Jobopen from './Components/Job Open/Jobopen';
 import Main from './Components/Main/Main';
 import Sidebar from './Components/Sidebar/Sidebar';
+import { Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      {/* <Sidebar/> */}
-      {/* <Header/> */}
-      {/* <Frame/> */}
-      {/* <Jobopen/> */}
-      {/* <IncomeOutcome/> */}
-      {/* <EmployeeComposition/> */}
-      {/* <EmployeeStatus/> */}
-      {/* <Calendar/> */}
-      <Main/>
-      {/* <Graph/> */}
+    <div className="App">     
+      <Routes>
+        <Route exact path='/' element={<Main/>}></Route>
+      </Routes> 
     </div>
   );
 }
