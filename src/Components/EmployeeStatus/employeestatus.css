@@ -1,0 +1,61 @@
+.employee-status {
+    /* Add styles for the main container */
+    padding: 2%;
+    text-align: start;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 733px;
+    /* position: fixed; */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    /* Add styles for the header */
+  }
+  
+  .left {
+    font-weight: bold;
+  }
+  
+  .right {
+    font-weight: bold;
+    color: rgb(95, 11, 95);
+  }
+  
+  .table {
+    /* Add styles for the table container */
+    
+  }
+  
+  .row {
+    display: flex;
+    /* Add styles for the table row */
+  }
+  
+  .row.header {
+    font-weight: bold;
+    /* Add styles for the header row */
+  }
+  
+  .cell {
+    flex: 1;
+    padding: 10px 5px;
+    border: none;
+    vertical-align: middle;
+    /* Add styles for the table cell */
+  }
+
+  .profile-pic {
+    width: 10px; /* Adjust image width */
+    height: 20px; /* Adjust image height */
+    border-radius: 50%; /* Make the image circular */
+     /* Add margin to separate image from text */ 
+  }
+
+  .employee-column {
+    width: 500px; /* Adjust the width as needed */
+  }
+  
+  
+  

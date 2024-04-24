@@ -1,0 +1,27 @@
+.container1 {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  width: 600px;
+  margin: auto; /* Center the container horizontally */
+  padding: 5%;
+  height: 100px;
+}
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .meeting-details {
+    margin-top: 20px;
+  }
+
+  h2{
+    text-align: start;
+  }
+  span{
+    text-align: end;
+  }
+  .button{
+    align-items: self-start;
+  }

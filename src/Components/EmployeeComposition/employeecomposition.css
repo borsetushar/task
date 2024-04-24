@@ -1,0 +1,50 @@
+.container {
+    width: 300px; /* Adjust width as needed */
+    height: 280px; /* Adjust height as needed */
+    background-color: white; /* Background color for the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .circle {
+    width: 190px; /* Adjust width as needed */
+    height: 190px; /* Adjust height as needed */
+    border: 40px solid green; /* Less border with green color */
+    border-top-color: blue; /* Top border with blue color */
+    border-radius: 50%; /* Make circle */
+    transform: rotate(-90deg);
+    position: relative;
+  }
+  
+  .circle::before,
+  .circle::after {
+    content: '';
+    position: absolute;
+    width: 60px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    background-color: white; /* White background for the cards */
+    border-radius: 5%; /* Make circle */
+    font-size: 14px; 
+  }
+  
+  .circle::before {
+    content: '35%';
+    top: -65px; /* Position on blue border */
+    right: calc(50% - 39px); /* Position on blue border */
+    transform: rotate(89deg);
+    padding: 4%;
+  }
+  
+  .circle::after {
+    content: '65%';
+    bottom: -60px; /* Position on green border */
+    right: calc(50% - -19px); /* Position on green border */
+    transform: rotate(91deg);
+    padding: 4%;
+  }
+  
+  

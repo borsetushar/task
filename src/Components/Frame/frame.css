@@ -1,0 +1,58 @@
+.header-content {
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 47, 139);
+    width: 730px;
+    border-radius: 6px;
+}
+.frame{
+   width: 200px;
+
+}
+
+.weather-frame {
+    width: 695px;
+    height: 88px;
+    position: relative;
+    padding: 6px 10px 6px 10px;
+    border-radius: 7px 0px 0px 0px;
+    color: white;
+    /* Add other styles as needed */
+}
+
+.partition-line {
+    /* Styles for the partition line */
+    border-left: 1px solid white;
+    height: 100px; /* Adjust height as needed */
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.date-column, .present-time-column, .entry-time-column {
+    width: calc(25% - 1px); /* Adjust width and padding as needed */
+    padding: 10px;
+}
+
+.small-text {
+    /* Styles for small text */
+    color: white;
+    font-size: 12px;
+    align-self: flex-start;
+}
+
+.big-text {
+    /* Styles for big text */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.present-time {
+    /* Styles for present time */
+    background-color: rgb(96, 191, 223);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
