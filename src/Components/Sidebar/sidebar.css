@@ -1,42 +1,29 @@
 .sidebar {
-width: 238px;
-height: 700px;
-/* top: -553px;
-left: -720px; */
-gap: 0px;
-opacity: 0px;
-background-color: #746CFF;
-padding-top: 3%;
-margin-top: -6%;
-;
+    width: 238px;
+    height: 700px;
+    background-color: #746CFF;
+    padding-top: 3%;
+    margin-top: -8%; /* Adjust as needed */
 }
 
-.profile-pic{
-width: 91px;
-height: 91px;
-top: -528px;
-left: -647px;
-gap: 0px;
-opacity: 0px;
-
+.profile-pic {
+    width: 91px;
+    height: 91px;
+    /* Adjust positioning properties as needed */
 }
 
-.line{
-width: 161px;
-height: 18px;
-top: -427px;
-left: -681px;
-gap: 0px;
-opacity: 0px;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 700;
-line-height: 18px;
-text-align: left;
-
+.line {
+    width: 161px;
+    height: 18px;
+    /* Adjust positioning properties as needed */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
 }
 
 .hover-light-white:hover {
-    background-color: #f8f9fa !important; /* Set background color to light white on hover */
-    color: black !important; /* Set text color to black on hover */
+    background-color: #f8f9fa !important;
+    color: black !important;
 }

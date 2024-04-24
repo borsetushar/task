@@ -7,7 +7,7 @@ import Profile from '../../assets/image.png';
 const Sidebar = () => {
     return (
         <div className="sidebar text-light">
-            <Container fluid style={{}}>
+            <Container fluid >
                 <Row>
                     <Col className="text-center">
                         <Image src={Profile} roundedCircle className="profile-pic" />
